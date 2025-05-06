@@ -48,6 +48,7 @@ public class MainKRS {
                     break;
                 case 6:
                     System.out.println("Jumlah dalam antrian: " + antrian.getJumlahAntrian());
+                    break;
                 case 7:
                     System.out.println("Sudah KRS: " + antrian.getTotalDilayani());
                     break;

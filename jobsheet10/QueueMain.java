@@ -30,10 +30,8 @@ public class QueueMain {
                     break;
                 case 2:
                     int dataKeluar = Q.Dequeue();
-                    if (dataKeluar != 0) {
-                        System.out.println("Data yang dikeluarkan: " + dataKeluar);
-                        break;
-                    }
+                    System.out.println("Data yang dikeluarkan: " + dataKeluar);
+                    break;
                 case 3:
                     Q.print();
                     break;
